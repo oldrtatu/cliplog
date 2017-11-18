@@ -21,6 +21,6 @@ class cliplog:
 		print("\nThe log has been successfully saved in {}".format(self.address))
 		return 0
 
-c = input('Path to file: ')
+c = input('Path to file:- ')
 obj = cliplog(c)
 obj.log()
